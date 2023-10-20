@@ -1,0 +1,238 @@
+[2023-10-17T15:14:30.453+0000] {processor.py:153} INFO - Started process (PID=7194) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:14:30.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:14:30.454+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:14:30.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:14:30.457+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:14:30.455+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:14:30.457+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:14:30.469+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.018 seconds
+[2023-10-17T15:15:01.102+0000] {processor.py:153} INFO - Started process (PID=7269) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:01.104+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:15:01.104+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:15:01.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:01.109+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:15:01.108+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:15:01.109+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:01.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.031 seconds
+[2023-10-17T15:15:31.709+0000] {processor.py:153} INFO - Started process (PID=7363) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:31.710+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:15:31.711+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:15:31.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:31.715+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:15:31.714+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:15:31.716+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:15:31.735+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.031 seconds
+[2023-10-17T15:16:02.296+0000] {processor.py:153} INFO - Started process (PID=7457) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:02.297+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:16:02.297+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:16:02.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:02.299+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:16:02.299+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:16:02.300+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:02.314+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.020 seconds
+[2023-10-17T15:16:32.987+0000] {processor.py:153} INFO - Started process (PID=7551) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:32.987+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:16:32.988+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:16:32.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:32.990+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:16:32.989+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:16:32.990+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:16:33.000+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.016 seconds
+[2023-10-17T15:17:03.667+0000] {processor.py:153} INFO - Started process (PID=7627) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:03.668+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:17:03.668+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:17:03.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:03.672+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:17:03.671+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:17:03.672+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:03.689+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.026 seconds
+[2023-10-17T15:17:34.303+0000] {processor.py:153} INFO - Started process (PID=7721) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:34.304+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T15:17:34.305+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:17:34.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:34.310+0000] {logging_mixin.py:137} INFO - [2023-10-17T15:17:34.309+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T15:17:34.310+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T15:17:34.331+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.033 seconds
+[2023-10-17T16:02:45.022+0000] {processor.py:153} INFO - Started process (PID=7797) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T16:02:45.023+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T16:02:45.023+0000] {logging_mixin.py:137} INFO - [2023-10-17T16:02:45.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T16:02:45.026+0000] {logging_mixin.py:137} INFO - [2023-10-17T16:02:45.025+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T16:02:45.026+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T16:02:45.039+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.020 seconds
+[2023-10-17T16:21:01.503+0000] {processor.py:153} INFO - Started process (PID=7891) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T16:21:01.504+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T16:21:01.504+0000] {logging_mixin.py:137} INFO - [2023-10-17T16:21:01.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T16:21:01.507+0000] {logging_mixin.py:137} INFO - [2023-10-17T16:21:01.506+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T16:21:01.507+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T16:21:01.520+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.020 seconds
+[2023-10-17T17:28:06.146+0000] {processor.py:153} INFO - Started process (PID=7985) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T17:28:06.147+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T17:28:06.147+0000] {logging_mixin.py:137} INFO - [2023-10-17T17:28:06.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T17:28:06.149+0000] {logging_mixin.py:137} INFO - [2023-10-17T17:28:06.148+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T17:28:06.149+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T17:28:06.159+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.016 seconds
+[2023-10-17T18:52:52.086+0000] {processor.py:153} INFO - Started process (PID=8061) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T18:52:52.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T18:52:52.088+0000] {logging_mixin.py:137} INFO - [2023-10-17T18:52:52.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T18:52:52.091+0000] {logging_mixin.py:137} INFO - [2023-10-17T18:52:52.090+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T18:52:52.091+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T18:52:52.105+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.023 seconds
+[2023-10-17T20:17:31.097+0000] {processor.py:153} INFO - Started process (PID=8155) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T20:17:31.099+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T20:17:31.101+0000] {logging_mixin.py:137} INFO - [2023-10-17T20:17:31.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T20:17:31.107+0000] {logging_mixin.py:137} INFO - [2023-10-17T20:17:31.105+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T20:17:31.108+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T20:17:31.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.039 seconds
+[2023-10-17T21:19:59.200+0000] {processor.py:153} INFO - Started process (PID=8249) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T21:19:59.200+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T21:19:59.201+0000] {logging_mixin.py:137} INFO - [2023-10-17T21:19:59.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T21:19:59.204+0000] {logging_mixin.py:137} INFO - [2023-10-17T21:19:59.203+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T21:19:59.204+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T21:19:59.218+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.021 seconds
+[2023-10-17T22:43:34.951+0000] {processor.py:153} INFO - Started process (PID=8325) to work on /opt/airflow/dags/user_processing.py
+[2023-10-17T22:43:34.952+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/user_processing.py for tasks to queue
+[2023-10-17T22:43:34.953+0000] {logging_mixin.py:137} INFO - [2023-10-17T22:43:34.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/user_processing.py
+[2023-10-17T22:43:34.956+0000] {logging_mixin.py:137} INFO - [2023-10-17T22:43:34.955+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/user_processing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/user_processing.py", line 6
+    None
+       ^
+IndentationError: expected an indented block
+[2023-10-17T22:43:34.956+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/user_processing.py
+[2023-10-17T22:43:34.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/user_processing.py took 0.023 seconds
