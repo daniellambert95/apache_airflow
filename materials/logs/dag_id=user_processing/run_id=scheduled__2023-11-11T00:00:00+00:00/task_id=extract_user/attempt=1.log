@@ -1,0 +1,25 @@
+[2023-11-12T01:18:55.158+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-11-11T00:00:00+00:00 [queued]>
+[2023-11-12T01:18:55.163+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-11-11T00:00:00+00:00 [queued]>
+[2023-11-12T01:18:55.163+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-12T01:18:55.163+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-11-12T01:18:55.164+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-12T01:18:55.170+0000] {taskinstance.py:1300} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-11-11 00:00:00+00:00
+[2023-11-12T01:18:55.174+0000] {standard_task_runner.py:55} INFO - Started process 21434 to run task
+[2023-11-12T01:18:55.177+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2023-11-11T00:00:00+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpgc4jserp']
+[2023-11-12T01:18:55.177+0000] {standard_task_runner.py:83} INFO - Job 74: Subtask extract_user
+[2023-11-12T01:18:55.207+0000] {task_command.py:388} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2023-11-11T00:00:00+00:00 [running]> on host cff42873677f
+[2023-11-12T01:18:55.237+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-11-11T00:00:00+00:00
+[2023-11-12T01:18:55.238+0000] {http.py:123} INFO - Calling HTTP method
+[2023-11-12T01:18:55.242+0000] {base.py:73} INFO - Using connection ID 'user_api' for task execution.
+[2023-11-12T01:18:55.747+0000] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Judy","last":"Curtis"},"location":{"street":{"number":3893,"name":"Railroad St"},"city":"Mackay","state":"Australian Capital Territory","country":"Australia","postcode":9026,"coordinates":{"latitude":"-84.3156","longitude":"50.1141"},"timezone":{"offset":"-6:00","description":"Central Time (US & Canada), Mexico City"}},"email":"judy.curtis@example.com","login":{"uuid":"73f36a81-ada4-4b9d-bc28-3af666c3c18c","username":"orangeduck701","password":"belmont","salt":"2OqRJ2EW","md5":"caab2b0918188a0740991de3c7d89503","sha1":"0fe3fde11564f72c5e333143a6c7071022937d90","sha256":"eeee8ca87d0c66bac2b148084e58c8fbb1f7ced967ece827ea7ece106ded9357"},"dob":{"date":"2000-12-07T08:23:41.003Z","age":22},"registered":{"date":"2010-03-07T19:33:10.768Z","age":13},"phone":"04-7270-5722","cell":"0486-659-488","id":{"name":"TFN","value":"055692268"},"picture":{"large":"https://randomuser.me/api/portraits/women/40.jpg","medium":"https://randomuser.me/api/portraits/med/women/40.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/40.jpg"},"nat":"AU"}],"info":{"seed":"9f590387103fadfd","results":1,"page":1,"version":"1.4"}}
+[2023-11-12T01:18:55.788+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20231111T000000, start_date=20231112T011855, end_date=20231112T011855
+[2023-11-12T01:18:55.809+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-11-12T01:18:55.830+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
