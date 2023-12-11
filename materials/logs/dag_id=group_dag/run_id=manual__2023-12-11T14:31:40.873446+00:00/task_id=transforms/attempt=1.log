@@ -21,3 +21,8 @@ AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-11T14:31:40.873446+00:00
   warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
 
 [2023-12-11T14:32:53.938+0000] {subdag.py:171} INFO - Created DagRun: scheduled__2023-12-11T14:31:40.873446+00:00
+[2023-12-11T14:41:39.166+0000] {local_task_job.py:273} WARNING - State of this instance has been externally set to removed. Terminating instance.
+[2023-12-11T14:41:39.176+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 4685. PIDs of all processes in the group: [4685]
+[2023-12-11T14:41:39.179+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 4685
+[2023-12-11T14:41:39.181+0000] {taskinstance.py:1479} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-11T14:41:39.233+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4685, status='terminated', exitcode=0, started='14:32:53') (4685) terminated with exit code 0

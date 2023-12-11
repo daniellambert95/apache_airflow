@@ -755,3 +755,23 @@ ImportError: cannot import name 'BashOperator' from 'airflow.operators.dummy_ope
 [2023-12-11T14:34:10.161+0000] {logging_mixin.py:137} INFO - [2023-12-11T14:34:10.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subdags/subdag_downloads.py
 [2023-12-11T14:34:10.166+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/subdags/subdag_downloads.py
 [2023-12-11T14:34:10.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/subdags/subdag_downloads.py took 0.022 seconds
+[2023-12-11T14:34:40.719+0000] {processor.py:153} INFO - Started process (PID=10053) to work on /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:34:40.721+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/subdags/subdag_downloads.py for tasks to queue
+[2023-12-11T14:34:40.722+0000] {logging_mixin.py:137} INFO - [2023-12-11T14:34:40.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:34:40.730+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:34:40.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/subdags/subdag_downloads.py took 0.028 seconds
+[2023-12-11T14:35:11.221+0000] {processor.py:153} INFO - Started process (PID=10115) to work on /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:11.223+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/subdags/subdag_downloads.py for tasks to queue
+[2023-12-11T14:35:11.224+0000] {logging_mixin.py:137} INFO - [2023-12-11T14:35:11.224+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:11.231+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:11.246+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/subdags/subdag_downloads.py took 0.030 seconds
+[2023-12-11T14:35:41.655+0000] {processor.py:153} INFO - Started process (PID=10177) to work on /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:41.656+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/subdags/subdag_downloads.py for tasks to queue
+[2023-12-11T14:35:41.657+0000] {logging_mixin.py:137} INFO - [2023-12-11T14:35:41.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:41.663+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:35:41.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/subdags/subdag_downloads.py took 0.024 seconds
+[2023-12-11T14:36:12.073+0000] {processor.py:153} INFO - Started process (PID=10221) to work on /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:36:12.073+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/subdags/subdag_downloads.py for tasks to queue
+[2023-12-11T14:36:12.074+0000] {logging_mixin.py:137} INFO - [2023-12-11T14:36:12.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:36:12.079+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/subdags/subdag_downloads.py
+[2023-12-11T14:36:12.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/subdags/subdag_downloads.py took 0.020 seconds
