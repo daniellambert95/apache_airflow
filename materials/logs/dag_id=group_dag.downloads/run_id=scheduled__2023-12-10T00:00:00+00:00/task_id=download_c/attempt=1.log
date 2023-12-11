@@ -1,0 +1,54 @@
+[2023-12-11T13:53:11.138+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T13:53:11.143+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T13:53:11.143+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T13:53:11.143+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-11T13:53:11.143+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T13:53:11.150+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): download_c> on 2023-12-10 00:00:00+00:00
+[2023-12-11T13:53:11.154+0000] {standard_task_runner.py:55} INFO - Started process 725 to run task
+[2023-12-11T13:53:11.156+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag.downloads', 'download_c', 'scheduled__2023-12-10T00:00:00+00:00', '--job-id', '284', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpvir_ujfb']
+[2023-12-11T13:53:11.157+0000] {standard_task_runner.py:83} INFO - Job 284: Subtask download_c
+[2023-12-11T13:53:11.192+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [running]> on host 41c3c193ed03
+[2023-12-11T13:53:11.228+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag.downloads
+AIRFLOW_CTX_TASK_ID=download_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T13:53:11.228+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-11T13:53:11.229+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-12-11T13:53:11.240+0000] {subprocess.py:86} INFO - Output:
+[2023-12-11T13:53:21.244+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-11T13:53:21.266+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag.downloads, task_id=download_c, execution_date=20231210T000000, start_date=20231211T135311, end_date=20231211T135321
+[2023-12-11T13:53:21.308+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-12-11T13:53:21.318+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-11T14:24:34.201+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T14:24:34.205+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T14:24:34.206+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:24:34.206+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-11T14:24:34.206+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:24:34.212+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): download_c> on 2023-12-10 00:00:00+00:00
+[2023-12-11T14:24:34.216+0000] {standard_task_runner.py:55} INFO - Started process 3826 to run task
+[2023-12-11T14:24:34.218+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag.downloads', 'download_c', 'scheduled__2023-12-10T00:00:00+00:00', '--job-id', '293', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmp94bo3sv8']
+[2023-12-11T14:24:34.219+0000] {standard_task_runner.py:83} INFO - Job 293: Subtask download_c
+[2023-12-11T14:24:34.250+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.downloads.download_c scheduled__2023-12-10T00:00:00+00:00 [running]> on host 41c3c193ed03
+[2023-12-11T14:24:34.284+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag.downloads
+AIRFLOW_CTX_TASK_ID=download_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T14:24:34.285+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-11T14:24:34.285+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-12-11T14:24:34.297+0000] {subprocess.py:86} INFO - Output:
+[2023-12-11T14:24:44.300+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-11T14:24:44.318+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag.downloads, task_id=download_c, execution_date=20231210T000000, start_date=20231211T142434, end_date=20231211T142444
+[2023-12-11T14:24:44.348+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-12-11T14:24:44.357+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

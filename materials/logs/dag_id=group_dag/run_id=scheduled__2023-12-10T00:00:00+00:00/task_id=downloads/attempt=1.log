@@ -1,0 +1,56 @@
+[2023-12-11T13:53:09.987+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T13:53:09.992+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T13:53:09.992+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T13:53:09.992+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-11T13:53:09.992+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T13:53:09.998+0000] {taskinstance.py:1300} INFO - Executing <Task(SubDagOperator): downloads> on 2023-12-10 00:00:00+00:00
+[2023-12-11T13:53:10.002+0000] {standard_task_runner.py:55} INFO - Started process 721 to run task
+[2023-12-11T13:53:10.005+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'downloads', 'scheduled__2023-12-10T00:00:00+00:00', '--job-id', '283', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpri4_p89g']
+[2023-12-11T13:53:10.005+0000] {standard_task_runner.py:83} INFO - Job 283: Subtask downloads
+[2023-12-11T13:53:10.034+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [running]> on host 41c3c193ed03
+[2023-12-11T13:53:10.066+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=downloads
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T13:53:10.067+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:205: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-12-11T13:53:10.080+0000] {subdag.py:171} INFO - Created DagRun: scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T13:54:10.113+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2023-12-11T13:54:10.119+0000] {subdag.py:186} INFO - Execution finished. State is success
+[2023-12-11T13:54:10.127+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=downloads, execution_date=20231210T000000, start_date=20231211T135309, end_date=20231211T135410
+[2023-12-11T13:54:10.157+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-12-11T13:54:10.185+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-11T14:24:33.339+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T14:24:33.344+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [queued]>
+[2023-12-11T14:24:33.344+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:24:33.344+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-11T14:24:33.344+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:24:33.350+0000] {taskinstance.py:1300} INFO - Executing <Task(SubDagOperator): downloads> on 2023-12-10 00:00:00+00:00
+[2023-12-11T14:24:33.354+0000] {standard_task_runner.py:55} INFO - Started process 3822 to run task
+[2023-12-11T14:24:33.356+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'downloads', 'scheduled__2023-12-10T00:00:00+00:00', '--job-id', '291', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmp7lgyrpbv']
+[2023-12-11T14:24:33.356+0000] {standard_task_runner.py:83} INFO - Job 291: Subtask downloads
+[2023-12-11T14:24:33.386+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.downloads scheduled__2023-12-10T00:00:00+00:00 [running]> on host 41c3c193ed03
+[2023-12-11T14:24:33.420+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=downloads
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T14:24:33.421+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:205: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-12-11T14:24:33.433+0000] {subdag.py:171} INFO - Created DagRun: scheduled__2023-12-10T00:00:00+00:00
+[2023-12-11T14:25:33.452+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2023-12-11T14:25:33.458+0000] {subdag.py:186} INFO - Execution finished. State is success
+[2023-12-11T14:25:33.464+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=downloads, execution_date=20231210T000000, start_date=20231211T142433, end_date=20231211T142533
+[2023-12-11T14:25:33.484+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-12-11T14:25:33.525+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

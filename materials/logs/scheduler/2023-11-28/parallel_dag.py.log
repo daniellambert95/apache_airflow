@@ -1,0 +1,280 @@
+[2023-11-28T00:13:03.807+0000] {processor.py:153} INFO - Started process (PID=53723) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T00:13:03.808+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T00:13:03.809+0000] {logging_mixin.py:137} INFO - [2023-11-28T00:13:03.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T00:13:03.833+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T00:13:03.863+0000] {logging_mixin.py:137} INFO - [2023-11-28T00:13:03.863+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T00:13:03.881+0000] {logging_mixin.py:137} INFO - [2023-11-28T00:13:03.881+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-27T00:00:00+00:00, run_after=2023-11-28T00:00:00+00:00
+[2023-11-28T00:13:03.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.087 seconds
+[2023-11-28T01:35:56.390+0000] {processor.py:153} INFO - Started process (PID=53791) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T01:35:56.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T01:35:56.391+0000] {logging_mixin.py:137} INFO - [2023-11-28T01:35:56.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T01:35:56.412+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T01:35:56.428+0000] {logging_mixin.py:137} INFO - [2023-11-28T01:35:56.428+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T01:35:56.443+0000] {logging_mixin.py:137} INFO - [2023-11-28T01:35:56.443+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T01:35:56.451+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.066 seconds
+[2023-11-28T02:57:31.820+0000] {processor.py:153} INFO - Started process (PID=53832) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T02:57:31.822+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T02:57:31.823+0000] {logging_mixin.py:137} INFO - [2023-11-28T02:57:31.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T02:57:32.296+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T02:57:32.358+0000] {logging_mixin.py:137} INFO - [2023-11-28T02:57:32.358+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T02:57:32.413+0000] {logging_mixin.py:137} INFO - [2023-11-28T02:57:32.413+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T02:57:32.464+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.650 seconds
+[2023-11-28T04:03:53.551+0000] {processor.py:153} INFO - Started process (PID=53892) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T04:03:53.551+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T04:03:53.552+0000] {logging_mixin.py:137} INFO - [2023-11-28T04:03:53.552+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T04:03:53.576+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T04:03:53.606+0000] {logging_mixin.py:137} INFO - [2023-11-28T04:03:53.606+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T04:03:53.626+0000] {logging_mixin.py:137} INFO - [2023-11-28T04:03:53.626+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T04:03:53.638+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.091 seconds
+[2023-11-28T05:28:59.307+0000] {processor.py:153} INFO - Started process (PID=53951) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T05:28:59.309+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T05:28:59.311+0000] {logging_mixin.py:137} INFO - [2023-11-28T05:28:59.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T05:28:59.345+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T05:28:59.389+0000] {logging_mixin.py:137} INFO - [2023-11-28T05:28:59.389+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T05:28:59.427+0000] {logging_mixin.py:137} INFO - [2023-11-28T05:28:59.427+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T05:28:59.450+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.153 seconds
+[2023-11-28T06:53:11.805+0000] {processor.py:153} INFO - Started process (PID=53992) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T06:53:11.806+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T06:53:11.806+0000] {logging_mixin.py:137} INFO - [2023-11-28T06:53:11.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T06:53:11.830+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T06:53:11.857+0000] {logging_mixin.py:137} INFO - [2023-11-28T06:53:11.856+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T06:53:11.872+0000] {logging_mixin.py:137} INFO - [2023-11-28T06:53:11.872+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T06:53:11.882+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.082 seconds
+[2023-11-28T08:13:19.340+0000] {processor.py:153} INFO - Started process (PID=54051) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T08:13:19.342+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T08:13:19.343+0000] {logging_mixin.py:137} INFO - [2023-11-28T08:13:19.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T08:13:19.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T08:13:19.409+0000] {logging_mixin.py:137} INFO - [2023-11-28T08:13:19.409+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T08:13:19.451+0000] {logging_mixin.py:137} INFO - [2023-11-28T08:13:19.451+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T08:13:19.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.144 seconds
+[2023-11-28T09:34:31.074+0000] {processor.py:153} INFO - Started process (PID=54101) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T09:34:31.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T09:34:31.078+0000] {logging_mixin.py:137} INFO - [2023-11-28T09:34:31.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T09:34:31.115+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T09:34:31.169+0000] {logging_mixin.py:137} INFO - [2023-11-28T09:34:31.169+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T09:34:31.205+0000] {logging_mixin.py:137} INFO - [2023-11-28T09:34:31.204+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T09:34:31.225+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.166 seconds
+[2023-11-28T10:57:19.013+0000] {processor.py:153} INFO - Started process (PID=54151) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T10:57:19.014+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T10:57:19.015+0000] {logging_mixin.py:137} INFO - [2023-11-28T10:57:19.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T10:57:19.036+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T10:57:19.053+0000] {logging_mixin.py:137} INFO - [2023-11-28T10:57:19.053+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T10:57:19.068+0000] {logging_mixin.py:137} INFO - [2023-11-28T10:57:19.068+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T10:57:19.076+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.067 seconds
+[2023-11-28T12:20:08.941+0000] {processor.py:153} INFO - Started process (PID=54210) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T12:20:08.942+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T12:20:08.943+0000] {logging_mixin.py:137} INFO - [2023-11-28T12:20:08.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T12:20:08.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T12:20:09.008+0000] {logging_mixin.py:137} INFO - [2023-11-28T12:20:09.008+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T12:20:09.051+0000] {logging_mixin.py:137} INFO - [2023-11-28T12:20:09.051+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T12:20:09.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.140 seconds
+[2023-11-28T13:42:43.051+0000] {processor.py:153} INFO - Started process (PID=54251) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T13:42:43.052+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T13:42:43.053+0000] {logging_mixin.py:137} INFO - [2023-11-28T13:42:43.053+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T13:42:43.079+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T13:42:43.118+0000] {logging_mixin.py:137} INFO - [2023-11-28T13:42:43.118+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T13:42:43.139+0000] {logging_mixin.py:137} INFO - [2023-11-28T13:42:43.139+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T13:42:43.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.105 seconds
+[2023-11-28T15:00:30.365+0000] {processor.py:153} INFO - Started process (PID=54310) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T15:00:30.367+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T15:00:30.368+0000] {logging_mixin.py:137} INFO - [2023-11-28T15:00:30.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T15:00:30.452+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T15:00:30.494+0000] {logging_mixin.py:137} INFO - [2023-11-28T15:00:30.494+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T15:00:30.516+0000] {logging_mixin.py:137} INFO - [2023-11-28T15:00:30.516+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T15:00:30.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.183 seconds
+[2023-11-28T16:17:27.840+0000] {processor.py:153} INFO - Started process (PID=54360) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T16:17:27.841+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T16:17:27.842+0000] {logging_mixin.py:137} INFO - [2023-11-28T16:17:27.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T16:17:27.864+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T16:17:27.888+0000] {logging_mixin.py:137} INFO - [2023-11-28T16:17:27.888+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T16:17:27.908+0000] {logging_mixin.py:137} INFO - [2023-11-28T16:17:27.908+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T16:17:27.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.099 seconds
+[2023-11-28T17:40:20.901+0000] {processor.py:153} INFO - Started process (PID=54410) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T17:40:20.902+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T17:40:20.904+0000] {logging_mixin.py:137} INFO - [2023-11-28T17:40:20.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T17:40:20.951+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T17:40:21.012+0000] {logging_mixin.py:137} INFO - [2023-11-28T17:40:21.012+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T17:40:21.051+0000] {logging_mixin.py:137} INFO - [2023-11-28T17:40:21.051+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T17:40:21.094+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.204 seconds
+[2023-11-28T19:00:35.786+0000] {processor.py:153} INFO - Started process (PID=54469) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:00:35.789+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:00:35.791+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:00:35.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:00:35.829+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:00:35.898+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:00:35.898+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:00:35.945+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:00:35.945+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:00:36.026+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.255 seconds
+[2023-11-28T19:11:41.379+0000] {processor.py:153} INFO - Started process (PID=54510) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:11:41.380+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:11:41.381+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:11:41.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:11:41.403+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:11:41.422+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:11:41.422+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:11:41.448+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:11:41.448+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:11:41.459+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.083 seconds
+[2023-11-28T19:12:11.864+0000] {processor.py:153} INFO - Started process (PID=54569) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:11.866+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:12:11.868+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:11.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:11.901+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:11.918+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:11.918+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:12:11.933+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:11.933+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:12:11.942+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.087 seconds
+[2023-11-28T19:12:42.383+0000] {processor.py:153} INFO - Started process (PID=54610) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:42.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:12:42.385+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:42.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:42.405+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:12:42.422+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:42.422+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:12:42.437+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:12:42.437+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:12:42.446+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.066 seconds
+[2023-11-28T19:13:12.975+0000] {processor.py:153} INFO - Started process (PID=54669) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:12.978+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:13:12.979+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:12.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:13.007+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:13.035+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:13.035+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:13:13.053+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:13.053+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:13:13.063+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.095 seconds
+[2023-11-28T19:13:43.493+0000] {processor.py:153} INFO - Started process (PID=54728) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:43.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:13:43.497+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:43.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:43.533+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:13:43.551+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:43.551+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:13:43.567+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:13:43.567+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:13:43.577+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.091 seconds
+[2023-11-28T19:14:14.032+0000] {processor.py:153} INFO - Started process (PID=54787) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:14:14.034+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:14:14.035+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:14:14.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:14:14.057+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:14:14.077+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:14:14.077+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:14:14.096+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:14:14.096+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:14:14.107+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.079 seconds
+[2023-11-28T19:41:51.928+0000] {processor.py:153} INFO - Started process (PID=54828) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:41:51.929+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:41:51.930+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:41:51.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:41:51.968+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:41:52.001+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:41:52.001+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:41:52.025+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:41:52.025+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:41:52.051+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.127 seconds
+[2023-11-28T19:57:21.794+0000] {processor.py:153} INFO - Started process (PID=54887) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:21.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:57:21.824+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:21.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:21.900+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:21.969+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:21.968+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:57:22.039+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:22.039+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:57:22.070+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.305 seconds
+[2023-11-28T19:57:52.622+0000] {processor.py:153} INFO - Started process (PID=54928) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:52.623+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:57:52.624+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:52.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:52.657+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:57:52.678+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:52.678+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:57:52.695+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:57:52.695+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:57:52.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.089 seconds
+[2023-11-28T19:58:23.234+0000] {processor.py:153} INFO - Started process (PID=54987) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:23.236+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:58:23.237+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:23.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:23.263+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:23.282+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:23.281+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:58:23.297+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:23.297+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:58:23.307+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.077 seconds
+[2023-11-28T19:58:53.772+0000] {processor.py:153} INFO - Started process (PID=55046) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:53.773+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:58:53.774+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:53.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:53.796+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:58:53.816+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:53.816+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:58:53.834+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:58:53.834+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:58:53.844+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.079 seconds
+[2023-11-28T19:59:24.226+0000] {processor.py:153} INFO - Started process (PID=55087) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:24.227+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:59:24.228+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:24.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:24.244+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:24.262+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:24.262+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:59:24.276+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:24.276+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:59:24.284+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.062 seconds
+[2023-11-28T19:59:54.691+0000] {processor.py:153} INFO - Started process (PID=55146) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:54.693+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T19:59:54.694+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:54.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:54.721+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T19:59:54.739+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:54.739+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T19:59:54.755+0000] {logging_mixin.py:137} INFO - [2023-11-28T19:59:54.755+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T19:59:54.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.079 seconds
+[2023-11-28T20:00:25.215+0000] {processor.py:153} INFO - Started process (PID=55205) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:25.216+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:00:25.217+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:25.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:25.237+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:25.256+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:25.255+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:00:25.271+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:25.271+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:00:25.279+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.070 seconds
+[2023-11-28T20:00:55.821+0000] {processor.py:153} INFO - Started process (PID=55246) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:55.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:00:55.824+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:55.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:55.860+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:00:55.890+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:55.890+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:00:55.909+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:00:55.909+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:00:55.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.106 seconds
+[2023-11-28T20:01:26.474+0000] {processor.py:153} INFO - Started process (PID=55305) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:26.476+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:01:26.476+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:26.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:26.497+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:26.514+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:26.514+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:01:26.529+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:26.529+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:01:26.537+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.068 seconds
+[2023-11-28T20:01:56.980+0000] {processor.py:153} INFO - Started process (PID=55364) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:56.982+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:01:56.983+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:56.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:57.003+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:01:57.020+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:57.020+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:01:57.034+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:01:57.034+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:01:57.042+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.067 seconds
+[2023-11-28T20:02:27.520+0000] {processor.py:153} INFO - Started process (PID=55423) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:27.520+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:02:27.521+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:27.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:27.538+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:27.555+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:27.555+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:02:27.571+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:27.571+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:02:27.582+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.065 seconds
+[2023-11-28T20:02:58.144+0000] {processor.py:153} INFO - Started process (PID=55464) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:58.146+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:02:58.147+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:58.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:58.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:02:58.187+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:58.187+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:02:58.201+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:02:58.201+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:02:58.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.070 seconds
+[2023-11-28T20:03:28.662+0000] {processor.py:153} INFO - Started process (PID=55523) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:28.664+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:03:28.665+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:28.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:28.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:28.707+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:28.707+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:03:28.722+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:28.722+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:03:28.730+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.074 seconds
+[2023-11-28T20:03:59.202+0000] {processor.py:153} INFO - Started process (PID=55582) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:59.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:03:59.205+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:59.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:59.241+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:03:59.260+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:59.260+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:03:59.276+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:03:59.275+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:03:59.285+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.091 seconds
+[2023-11-28T20:04:29.779+0000] {processor.py:153} INFO - Started process (PID=55641) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:04:29.780+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:04:29.781+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:04:29.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:04:29.791+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:04:29.805+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:04:29.805+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:04:29.818+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:04:29.818+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:04:29.828+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.053 seconds
+[2023-11-28T20:41:17.206+0000] {processor.py:153} INFO - Started process (PID=55673) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:41:17.221+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T20:41:17.237+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:41:17.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:41:17.315+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T20:41:17.386+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:41:17.386+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T20:41:17.422+0000] {logging_mixin.py:137} INFO - [2023-11-28T20:41:17.422+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T20:41:17.457+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.300 seconds
+[2023-11-28T21:49:12.957+0000] {processor.py:153} INFO - Started process (PID=55723) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T21:49:12.984+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T21:49:12.987+0000] {logging_mixin.py:137} INFO - [2023-11-28T21:49:12.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T21:49:13.040+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T21:49:13.083+0000] {logging_mixin.py:137} INFO - [2023-11-28T21:49:13.083+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T21:49:13.123+0000] {logging_mixin.py:137} INFO - [2023-11-28T21:49:13.122+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T21:49:13.136+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.183 seconds
+[2023-11-28T23:13:21.987+0000] {processor.py:153} INFO - Started process (PID=55782) to work on /opt/airflow/dags/parallel_dag.py
+[2023-11-28T23:13:21.988+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/parallel_dag.py for tasks to queue
+[2023-11-28T23:13:21.989+0000] {logging_mixin.py:137} INFO - [2023-11-28T23:13:21.989+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T23:13:22.045+0000] {processor.py:753} INFO - DAG(s) dict_keys(['parallel_dag']) retrieved from /opt/airflow/dags/parallel_dag.py
+[2023-11-28T23:13:22.075+0000] {logging_mixin.py:137} INFO - [2023-11-28T23:13:22.075+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-11-28T23:13:22.117+0000] {logging_mixin.py:137} INFO - [2023-11-28T23:13:22.117+0000] {dag.py:3441} INFO - Setting next_dagrun for parallel_dag to 2023-11-28T00:00:00+00:00, run_after=2023-11-29T00:00:00+00:00
+[2023-11-28T23:13:22.130+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/parallel_dag.py took 0.147 seconds

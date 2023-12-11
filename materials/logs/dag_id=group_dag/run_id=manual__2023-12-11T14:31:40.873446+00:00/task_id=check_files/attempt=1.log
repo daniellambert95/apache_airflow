@@ -1,0 +1,27 @@
+[2023-12-11T14:32:43.080+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.check_files manual__2023-12-11T14:31:40.873446+00:00 [queued]>
+[2023-12-11T14:32:43.085+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: group_dag.check_files manual__2023-12-11T14:31:40.873446+00:00 [queued]>
+[2023-12-11T14:32:43.085+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:32:43.086+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-11T14:32:43.086+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-11T14:32:43.091+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): check_files> on 2023-12-11 14:31:40.873446+00:00
+[2023-12-11T14:32:43.096+0000] {standard_task_runner.py:55} INFO - Started process 4664 to run task
+[2023-12-11T14:32:43.098+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'group_dag', 'check_files', 'manual__2023-12-11T14:31:40.873446+00:00', '--job-id', '311', '--raw', '--subdir', 'DAGS_FOLDER/group_dag.py', '--cfg-path', '/tmp/tmpljgubkgm']
+[2023-12-11T14:32:43.099+0000] {standard_task_runner.py:83} INFO - Job 311: Subtask check_files
+[2023-12-11T14:32:43.135+0000] {task_command.py:388} INFO - Running <TaskInstance: group_dag.check_files manual__2023-12-11T14:31:40.873446+00:00 [running]> on host 41c3c193ed03
+[2023-12-11T14:32:43.167+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=group_dag
+AIRFLOW_CTX_TASK_ID=check_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-11T14:31:40.873446+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-12-11T14:31:40.873446+00:00
+[2023-12-11T14:32:43.168+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-11T14:32:43.168+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 10']
+[2023-12-11T14:32:43.176+0000] {subprocess.py:86} INFO - Output:
+[2023-12-11T14:32:53.184+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-12-11T14:32:53.206+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=group_dag, task_id=check_files, execution_date=20231211T143140, start_date=20231211T143243, end_date=20231211T143253
+[2023-12-11T14:32:53.220+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-12-11T14:32:53.232+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,30 @@
+[2023-12-06T01:09:24.170+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2023-12-05T00:00:00+00:00 [queued]>
+[2023-12-06T01:09:24.177+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: parallel_dag.transform scheduled__2023-12-05T00:00:00+00:00 [queued]>
+[2023-12-06T01:09:24.177+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-06T01:09:24.178+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-12-06T01:09:24.178+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-12-06T01:09:24.185+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): transform> on 2023-12-05 00:00:00+00:00
+[2023-12-06T01:09:24.191+0000] {standard_task_runner.py:55} INFO - Started process 31393 to run task
+[2023-12-06T01:09:24.194+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'parallel_dag', 'transform', 'scheduled__2023-12-05T00:00:00+00:00', '--job-id', '241', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp76oqp2gn']
+[2023-12-06T01:09:24.194+0000] {standard_task_runner.py:83} INFO - Job 241: Subtask transform
+[2023-12-06T01:09:24.232+0000] {task_command.py:388} INFO - Running <TaskInstance: parallel_dag.transform scheduled__2023-12-05T00:00:00+00:00 [running]> on host 4b7d8c96b1d6
+[2023-12-06T01:09:24.274+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=transform
+AIRFLOW_CTX_EXECUTION_DATE=2023-12-05T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-12-05T00:00:00+00:00
+[2023-12-06T01:09:24.276+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-12-06T01:09:24.277+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 30']
+[2023-12-06T01:09:24.286+0000] {subprocess.py:86} INFO - Output:
+[2023-12-06T02:29:20.510+0000] {local_task_job.py:273} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-12-06T02:29:20.514+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 31393. PIDs of all processes in the group: [31394, 31393]
+[2023-12-06T02:29:20.514+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 31393
+[2023-12-06T02:29:20.515+0000] {taskinstance.py:1479} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-06T02:29:20.517+0000] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2023-12-06T02:29:20.613+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=31393, status='terminated', exitcode=0, started='01:09:23') (31393) terminated with exit code 0
+[2023-12-06T02:29:20.614+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=31394, status='terminated', started='01:09:23') (31394) terminated with exit code None
